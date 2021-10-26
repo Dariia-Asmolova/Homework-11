@@ -19,16 +19,16 @@ body{
     max-width: 100%;
 }
 
-.list{
+.menu__list{
     list-style: none;
     padding-left: 600px;
 }
 
-.list-item { 
+.menu__list-item { 
     float: left;
 }
 
-.link {
+.menu__link {
     display: flex;
     width: 80px;
     padding: 10px;
@@ -37,24 +37,24 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-.link:hover{
+.menu__link:hover{
     text-decoration-line: overline;
     text-decoration-color: red;
     background-color: #333;
     color: #f4f4f4;
 }
 
-.info{
+.conteiner__info{
     padding-top: 300px;
     padding-left: 200px;
 }
 
-.info__title{
+.conteiner__info-title{
     font-family: 'Raleway', sans-serif;
 
 }
 
-.info__text{
+.conteiner__info-text{
     max-width: 320px;
     padding-bottom: 10px;
 }
@@ -70,7 +70,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
-.info__img{
+.conteiner__info-img{
     display: flex;
     padding-top: 300px;
     padding-left: 600px;
